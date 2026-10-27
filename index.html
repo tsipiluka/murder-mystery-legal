@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Murder Mystery – Datenschutz &amp; Impressum</title>
+  <meta name="description" content="Datenschutzerklärung und Impressum der App Murder Mystery.">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --card: #f5f5f7;
+      --line: #e3e3e6;
+      --accent: #8b1e2d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0a0b0d;
+        --text: #ececec;
+        --muted: #a0a0a6;
+        --card: #16171b;
+        --line: #26272c;
+        --accent: #e0606f;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+    header { margin-bottom: 24px; }
+    header h1 { margin: 0 0 4px; font-size: 32px; line-height: 1.2; }
+    header p { margin: 0; color: var(--muted); }
+    nav { margin: 16px 0 32px; display: flex; gap: 16px; flex-wrap: wrap; }
+    a { color: var(--accent); }
+    h2 { font-size: 24px; margin: 40px 0 16px; padding-top: 8px; border-top: 1px solid var(--line); }
+    h3 { font-size: 17px; margin: 24px 0 8px; }
+    section.card { background: var(--card); border-radius: 12px; padding: 16px 20px; }
+    section.card p { margin: 0 0 8px; }
+    section.card p:last-child, section.card ul:last-child { margin-bottom: 0; }
+    ul { margin: 0 0 8px; padding-left: 20px; }
+    address { font-style: normal; }
+    footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Murder Mystery</h1>
+    <p>Begleit-App für Krimidinner-Abende</p>
+  </header>
+
+  <nav>
+    <a href="#datenschutz">Datenschutzerklärung</a>
+    <a href="#impressum">Impressum &amp; Nutzungsbedingungen</a>
+  </nav>
+
+  <h2 id="datenschutz">Datenschutzerklärung</h2>
+
+  <h3>Verantwortlicher</h3>
+  <section class="card">
+    <address>
+      Luka Tsipitsoudis<br>
+      <a href="mailto:tsipi.luka@gmail.com">tsipi.luka@gmail.com</a><br>
+      Stresemannallee 75<br>
+      60596 Frankfurt<br>
+      Deutschland
+    </address>
+  </section>
+
+  <h3>Welche Daten wir verarbeiten</h3>
+  <section class="card">
+    <p>Murder Mystery verwendet eine anonyme Anmeldung über Supabase (Anonymous Auth). Dabei wird eine zufällige, nicht auf deine Person zurückführbare Nutzer-ID erzeugt. Zusätzlich speichern wir die Daten, die du selbst eingibst:</p>
+    <ul>
+      <li>Anzeigename (Spielername)</li>
+      <li>Profil-Avatar (falls gesetzt)</li>
+      <li>Dein Spielverlauf: an welchen Spielen du teilnimmst, welche Rolle dir zugewiesen wurde und welche Hinweise du aufgedeckt hast</li>
+      <li>Deine Abstimmungen am Ende eines Spiels einschließlich einer optionalen Begründung, die bei der Auflösung den anderen Spielern deines Spiels angezeigt wird</li>
+    </ul>
+    <p>Wir erheben keine Klarnamen, keine E-Mail-Adressen und keine Standortdaten.</p>
+    <p>Meldest du dich mit „Mit Apple anmelden“ an, speichern wir zusätzlich eine von Apple bereitgestellte, stabile Nutzerkennung sowie – nur wenn du sie freigibst – den von dir gewählten Namen. Wir erfragen bei Apple ausdrücklich keine E-Mail-Adresse. Außerdem speichern wir einen von Apple ausgestellten Widerrufs-Token, der ausschließlich dazu dient, die Apple-Verknüpfung beim Löschen deines Kontos serverseitig zu widerrufen; er wird nicht für andere Zwecke verwendet.</p>
+  </section>
+
+  <h3>Zweck der Verarbeitung</h3>
+  <section class="card">
+    <p>Diese Daten werden ausschließlich benötigt, um die Spiele zu koordinieren: Spieler einem gemeinsamen Spiel zuzuordnen, Charaktere und Hinweise auszuspielen und Abstimmungsergebnisse anzuzeigen. Eine Auswertung zu Werbe- oder Marketingzwecken außerhalb der unten beschriebenen AdMob-Integration findet nicht statt. Bei Anmeldung mit Apple dient die Nutzerkennung zusätzlich dazu, dein Konto geräteübergreifend und nach einer Neuinstallation wiederherzustellen.</p>
+  </section>
+
+  <h3>Hosting &amp; Speicherort</h3>
+  <section class="card">
+    <p>Die Daten werden über Supabase auf Servern innerhalb der EU (Stockholm, Schweden) gespeichert und verarbeitet. Bei Nutzung von „Mit Apple anmelden“ erfolgt zur Authentifizierung eine Übermittlung an Apple Inc. (USA). Darüber hinaus findet – abgesehen von der unten beschriebenen Werbeintegration – keine Übermittlung in Drittstaaten außerhalb der EU statt.</p>
+  </section>
+
+  <h3>Werbung (Google AdMob) und Einwilligung</h3>
+  <section class="card">
+    <p>Vor Spielbeginn zeigen wir gelegentlich Werbeanzeigen über Google AdMob an (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland). Dabei können Werbekennungen deines Geräts, deine IP-Adresse und Informationen zu deinem Gerät und deiner Interaktion mit Anzeigen verarbeitet werden.</p>
+    <p><strong>Einwilligung im EWR, im Vereinigten Königreich und in der Schweiz:</strong> Bevor die erste Anzeige geladen wird, fragen wir dich über die Einwilligungsplattform von Google (User Messaging Platform, eine nach dem IAB Transparency &amp; Consent Framework zertifizierte Plattform), ob Google und seine Werbepartner Informationen auf deinem Gerät speichern und abrufen sowie für personalisierte Werbung nutzen dürfen. Rechtsgrundlage ist deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Lehnst du ab, erhältst du – soweit möglich – nur nicht-personalisierte oder eingeschränkte Werbung; die App bleibt vollständig nutzbar.</p>
+    <p><strong>Widerruf:</strong> Deine Entscheidung kannst du jederzeit in der App unter Profil → „Datenschutzeinstellungen“ ändern oder widerrufen.</p>
+    <p><strong>iOS:</strong> Zusätzlich bittet dich Apples App-Tracking-Transparenz-Dialog um Erlaubnis, die Werbe-ID deines Geräts zu nutzen. Ohne diese Erlaubnis erhältst du nicht-personalisierte Werbung.</p>
+    <p>Google kann Daten auch an Google LLC in den USA übermitteln; Google LLC ist unter dem EU-US Data Privacy Framework zertifiziert. Weitere Informationen: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a> und <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+  </section>
+
+  <h3>Speicherdauer</h3>
+  <section class="card">
+    <p>Deine Daten bleiben gespeichert, solange dein Konto besteht. Im Profil-Bereich kannst du dein Konto jederzeit selbst löschen – dabei werden dein Profil (einschließlich Anzeigename und Profilbild), deine Spielzugehörigkeiten, aufgedeckten Hinweise und Abstimmungen unwiderruflich entfernt. Bei Apple-Konten wird gleichzeitig der gespeicherte Widerrufs-Token gegenüber Apple eingelöst und anschließend ebenfalls gelöscht.</p>
+  </section>
+
+  <h3>Deine Rechte</h3>
+  <section class="card">
+    <p>Du hast nach der DSGVO das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung deiner Daten, auf Datenübertragbarkeit und auf Widerruf erteilter Einwilligungen mit Wirkung für die Zukunft sowie ein Beschwerderecht bei einer Datenschutz-Aufsichtsbehörde. Da die App nur anonyme IDs und selbstgewählte Namen speichert, kannst du dein Recht auf Löschung direkt über die Funktion „Konto löschen“ im Profil ausüben. Für sonstige Anfragen erreichst du uns unter der oben genannten E-Mail-Adresse.</p>
+  </section>
+
+  <h2 id="impressum">Impressum &amp; Nutzungsbedingungen</h2>
+
+  <h3>Angaben gemäß § 5 DDG</h3>
+  <section class="card">
+    <address>
+      Luka Tsipitsoudis<br>
+      <a href="mailto:tsipi.luka@gmail.com">tsipi.luka@gmail.com</a><br>
+      Stresemannallee 75<br>
+      60596 Frankfurt<br>
+      Deutschland
+    </address>
+  </section>
+
+  <h3>Über die App</h3>
+  <section class="card">
+    <p>Murder Mystery ist eine Begleit-App für analoge Krimidinner-Abende: Sie unterstützt eine bestehende Gruppe von Spielern am selben Tisch mit digitalen Charakterkarten, zeitgesteuerten Hinweisen und einer Abstimmungsfunktion. Die App ist kein eigenständiges Online-Spiel, kein Glücksspiel und ersetzt kein physisches Treffen.</p>
+  </section>
+
+  <h3>Haftungsausschluss</h3>
+  <section class="card">
+    <p>Die Inhalte der Krimidinner-Szenarien (Geschichten, Charaktere, Hinweise) wurden sorgfältig erstellt, jedoch ohne Gewähr auf Vollständigkeit, Richtigkeit oder Eignung für einen bestimmten Zweck. Für Schäden, die im Rahmen der Nutzung der App oder eines Krimidinner-Abends entstehen, wird keine Haftung übernommen, soweit gesetzlich zulässig.</p>
+  </section>
+
+  <h3>Urheberrecht</h3>
+  <section class="card">
+    <p>Alle Texte, Charaktere und Geschichten innerhalb der App sind urheberrechtlich geschützt. Eine Vervielfältigung, Verbreitung oder Veröffentlichung außerhalb des privaten Spielgebrauchs ist ohne Zustimmung nicht gestattet.</p>
+  </section>
+
+  <h3>Anwendbares Recht</h3>
+  <section class="card">
+    <p>Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts, soweit gesetzlich zulässig.</p>
+  </section>
+
+  <footer>Stand: 27. Oktober 2026</footer>
+</main>
+</body>
+</html>
